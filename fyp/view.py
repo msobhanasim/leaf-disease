@@ -11,7 +11,6 @@ from django.conf import settings
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 from rest_framework.response import Response
-from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import status , generics , mixins,filters,viewsets
 from rest_framework.views import APIView
 from django.shortcuts import get_object_or_404
