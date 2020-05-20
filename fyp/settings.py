@@ -24,8 +24,8 @@ SECRET_KEY = 'o%y12^r9m05t034vuo*+7-a1!)7v_ewd2#_$6c*0ot$d(ezzpr'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = ['https://leaf-diseases.herokuapp.com']
+APPEND_SLASH = True
+ALLOWED_HOSTS = ['leaf-diseases.herokuapp.com']
 
 
 # Application definition
