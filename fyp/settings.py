@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'boto3',
     'storages',
-    'django_matplotlib',
+    'matplotlib',
     'numpy'
 ]
 
