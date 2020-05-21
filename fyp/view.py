@@ -16,7 +16,7 @@ from rest_framework.views import APIView
 from django.shortcuts import get_object_or_404
 import boto3
 
-import django_matplotlib.image as mpimg
+import matplotlib.image as mpimg
 import numpy as np
 import boto3
 
